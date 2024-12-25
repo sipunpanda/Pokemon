@@ -47,6 +47,7 @@ console.log(pokemonData);
                 isLoading: false
             }));
     }
+    
 
     useEffect(() => {
         downloadPokemons();
