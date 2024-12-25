@@ -5,7 +5,7 @@ function usePokemonList() {
     const [pokemonListState, setPokemonListState] = useState({
         pokemonList: [],
         isLoading: true,
-        pokedexUrl: 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=1302',
+        pokedexUrl: 'https://pokeapi.co/api/v2/pokemon',
         nextUrl: '',
         prevUrl: '',
     });
